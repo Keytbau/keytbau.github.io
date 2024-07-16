@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Catherine Bautista - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec;
+            color: #333;
+        }
+        header {
+            background-color: #ec407a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f06292;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #ec407a;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #ec407a;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #ec407a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #d81b60;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f06292;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mary Catherine Bautista</h1>
+        <p>BPO Training and Operations Professional</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a BPO training and operations professional with years of experience in creating training plans and modules, as well as managing and launching accounts for different verticals. I have worked in sales, travel, and financial accounts.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Details about your projects will go here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-form">
+                <form action="https://example.com/submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mary Catherine Bautista</p>
+    </footer>
+</body>
+</html>
